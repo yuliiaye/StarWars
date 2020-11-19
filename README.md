@@ -9,4 +9,4 @@ Application shows:
 - Button "NEXT". It loads the next object.
 
 
-At the top of the page, there is a Header component. When you click on the corresponding header menu, only the required component is rendered. People is render by default.
+At the top of the page, there is a Header component. When you click on the corresponding header menu, only the required component is rendered. People is rendered by default.
