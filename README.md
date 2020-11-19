@@ -1,5 +1,5 @@
 This is Star Wars database application.
-I use [swapi.dev](https://swapi.dev/) for data and [starwars-visualguide.com](https://starwars-visualguide.com/) for images.
+I used [swapi.dev](https://swapi.dev/) for data and [starwars-visualguide.com](https://starwars-visualguide.com/) for images.
 
 Application shows:
 
