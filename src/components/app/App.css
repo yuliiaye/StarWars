@@ -1,0 +1,75 @@
+body {
+    background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    box-sizing: border-box;
+    background-image: url(https://walldeco.ua/img/gallery/63/thumbs/thumb_l_10093.jpg);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 163px 0;
+    vertical-align: middle;
+    color: white;
+    font-size: 23px;
+    line-height: 35px;
+}
+div #images {
+    text-align: center;
+    display: inline-block;
+}
+div #data {
+    text-align: center;
+    display: inline-block;
+    font-size: 19px;
+    color: white;
+}
+div #data h3{
+    color: rgb(56, 254, 38);
+    font-size: 30px;
+    font-style: italic;
+}
+div #data ul {
+    padding: 0;
+}
+div #data ul li {
+    list-style-type: none;
+    line-height: 40px;
+    text-shadow: 0 2px 10px rgba(21, 255, 0, 0.625);
+}
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+}
+a {
+    background-color: #FFEE58;
+    color: rgb(21, 21, 21);
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    padding: 7px 40px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #FFEE58;
+    box-shadow: 2px 2px 11px rgba(255, 255, 255, 0.653);
+}
+a:active {
+    background-color: #ffee58ac;
+    color: #1c1c1c;
+}
+div > a {
+    height: 123px;
+    border-radius: 100px;
+    margin: 60px;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 53px;
+    font-weight: bold;
+}

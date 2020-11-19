@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="App.css">
+
+    <title>Start Wars</title>
+</head>
+<body onload="getInfo()">
+    <div id="content">
+        <header class="flex-container">
+            <a id="people">PEOPLE</a>
+            <a id="planets">PLANETS</a>
+            <a id="starships">STARSHIPS</a>
+        </header>
+        <div class="flex-container">
+            <div id="images" style="flex-grow: 1.5; flex-basis: content;"></div>
+            <div id="data" style="flex-grow: 2"></div>
+            <a id="btn" style="flex-grow: 0;">NEXT</a>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script src="../../services/sw-service.js"></script>
+</body>
+</html>
